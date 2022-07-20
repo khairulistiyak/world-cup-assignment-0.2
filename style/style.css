@@ -6,8 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: center;
-
-    margin: 80$;
 }
 
 main {
@@ -34,9 +32,6 @@ top-header-section
     margin-top: 70px;
 }
 
-.container .header-photo img {}
-
-.top-header-section {}
 
 
 .header-all-info {
@@ -49,7 +44,7 @@ top-header-section
     width: 450px;
 }
 
-.header-info {}
+
 
 .header-info p {
     color: aliceblue;
@@ -72,7 +67,7 @@ top-header-section
     color: white;
 }
 
-.header-photo {}
+
 
 /* -----------match-full-blogs----------- */
 .match-full-blogs {
