@@ -268,3 +268,82 @@ hr {
         text-align: center;
     }
 }
+
+
+
+
+
+
+/* -----------------------------Tablet device---------------------
+------------------------------------------------------------------- */
+
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .all-news-containet {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .blog-button-backround {
+
+        width: 100%;
+        height: 150px;
+        background-color: #ffffff;
+    }
+
+    .blog-button-backround {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* hedwe tab  */
+    .container {
+        border-radius: 25px;
+        height: 205px;
+        background-color: #161616;
+        margin-bottom: 30px;
+        display: flex;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 17px;
+        margin-top: 50px;
+    }
+
+    .header-all-info img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .header-title h1 {
+        color: white;
+        font-size: 1.3em;
+    }
+
+    .top-header-section {
+        text-align: center;
+    }
+
+    .match-full-blogs,
+    .footer-nav,
+    .social-media-icon {
+        display: grid;
+        grid-template: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .tab-disply-non {
+        display: none;
+    }
+
+}
+
+
+
+/* -------------------------.header-all-info ------------ */
