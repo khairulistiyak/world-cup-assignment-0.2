@@ -73,6 +73,7 @@ top-header-section
     border-radius: 5px;
     font-size: 24px;
     color: white;
+    border: none;
 }
 
 .watch-live-button:hover {
@@ -123,11 +124,24 @@ top-header-section
 
 /* <!-- blog news  --> */
 
+.match-flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+
+}
+
 .news-boxs-backround {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
     border: 1px solid rgb(213, 213, 213);
     border-radius: 10px;
-    width: 312px;
-    height: 362px;
+    width: 250px;
+    height: 220px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -137,16 +151,12 @@ top-header-section
     grid-gap: 20px;
 }
 
-.news-box-details {
-    margin: 20px;
+.news-box-details h3 {
+    margin: 0;
 }
 
-.news-box-details h4 {
-    border: 1px solid gray;
-    width: 100px;
-    height: 32;
-    text-align: center;
-    border-radius: 5px;
+.news-box-details p {
+    margin: 0;
 }
 
 .icon {
