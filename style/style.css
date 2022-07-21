@@ -347,6 +347,10 @@ hr {
         display: none;
     }
 
+    .tab-view {
+        display: block;
+        visibility: visible;
+    }
 
 }
 
