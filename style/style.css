@@ -147,6 +147,10 @@ top-header-section
     color: #777777;
 }
 
+.tab-view {
+    display: none;
+}
+
 /**---- -------------
 footer style 
 -------------------- */
@@ -267,6 +271,10 @@ hr {
     .top-header-section {
         text-align: center;
     }
+
+    .tab-view {
+        display: none;
+    }
 }
 
 
@@ -322,13 +330,10 @@ hr {
         font-size: 1.3em;
     }
 
-    .top-header-section {
-        text-align: center;
-    }
+
 
     .match-full-blogs,
-    .footer-nav,
-    .social-media-icon {
+    .footer-nav {
         display: grid;
         grid-template: repeat(3, 1fr);
         justify-content: center;
@@ -341,6 +346,7 @@ hr {
     .tab-disply-non {
         display: none;
     }
+
 
 }
 
